@@ -14,7 +14,6 @@ localparam IDLE = 2'b01;
 localparam RECEIVE = 2'b10;
 
 reg [1:0] state = INIT;
-reg [7:0] init_count = 0;
 reg [7:0] bit_cycle_count = 0;  // Changed to 8-bit
 reg [7:0] data_reg = 0;
 reg parity_reg = 0;
